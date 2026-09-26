@@ -1,0 +1,17 @@
+[package]
+name = "acore"
+version = "0.1.0"
+edition = "2024"
+description = "Shared contracts and primitives for the A Launcher runtime ecosystem."
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/A-Launcher/ACore"
+rust-version = "1.85"
+
+[lib]
+name = "acore"
+path = "src/lib.rs"
+
+[features]
+default = []
+
+[dependencies]
